@@ -8,7 +8,7 @@ php/mysql steps to the inside-out-project
 
 ***
 
-<details><summary>## Version 200.0</summary>
+## <details><summary>Version 200.0</summary>
 
 - pulled files from client's HTML site and uploaded to dev server.
 - updated title tag and header title with PHP variable
