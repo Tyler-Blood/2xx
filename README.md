@@ -24,3 +24,15 @@ php/mysql steps to the inside-out-project
 - created the header.inc.php and footer.inc.php files
 
 </details>
+
+<details><summary>Version 202.0</summary>
+
+- replaced navigation menu with top level pages by creating a function and array to dynamically create the menu (love who, challenges, you)
+- created the functions.inc.php file
+  - created the menuBuilder function
+  - created the menu.data.php file
+  - created menuItems array
+  - included in the very top of the header.inc.php a require_once to the include/menu.data.php file
+- included in the very top of the header.inc.php a require_once to the include/functions.inc.php file
+
+</details>
