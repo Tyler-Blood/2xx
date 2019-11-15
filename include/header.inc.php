@@ -9,6 +9,10 @@
   // Pulls functions used throughout the entire website
   require_once 'functions.inc.php';
 
+  if($_SERVER["SERVER_PORT"] == '80' && $_SERVER["HTTPS_HOST"] !== 'localhost'){
+    header('Location: https://'.$_SERVER["HTTP_HOST"]);
+  }
+
 ?>
 <!doctype html>
 <?php
