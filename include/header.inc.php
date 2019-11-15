@@ -1,7 +1,7 @@
 <?php
 
   // Pulls data elements used throughout the entire website
-  require_once 'menu.data.php';
+  require_once 'content.data.php';
   
   // Pulls functions used throughout the entire website
   require_once 'functions.inc.php';
@@ -50,7 +50,7 @@
       <h1><a href="index.php"><?php echo $siteName; ?></a></h1>
       <h2>continuously falling forward in to the light...</h2>
       <nav>
-        <?php echo menuBuilder($menuItems); ?>
+        <?php echo menuBuilder($content['pages']); ?>
       </nav>
     </header>
         <section>
