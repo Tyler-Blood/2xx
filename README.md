@@ -52,3 +52,24 @@ php/mysql steps to the inside-out-project
   - Added redirect to force a secure connection in the header.inc.php.
 
 </details>
+
+<details><summary>Version 204.0</summary>
+
+- replaced html in header.inc and footer.inc.php files with responsive bootstrap html
+- updated the menuBuilder() function to bypass the homepage when building the menu
+- added the getPages function to the functions.inc.php file
+- added the constant variable "DEFAULT_PAGE" to establish the default page
+- updated the constant variable "VERSION" to 2.0.4.0
+- put the getPage function in the index.php page
+- added pageContent to the content array
+- added the following files:
+  - assets/css/animate.min.css
+  - assets/css/bootstrap.css
+  - assets/css/style.css
+  - assets/js/app.js
+  - assets/js/html5shiv.min.js
+  - assets/js/bootstrap.js
+  - assets/js/jquery-1.11.3.min.js
+  - assets/js/respond.min.js
+
+</details>
